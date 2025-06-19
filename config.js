@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "38QFEZDL#Zgki3kjPdfz8_CTnq4NWaXTGY43tjMb2KIJohlgXfB4"l,
+SESSION_ID: process.env.SESSION_ID || "elxRnZwC#2L5-8DsUOaASv5fm3J_svqUQUBXPqF7aukajd0xWSDQ"l,
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -35,7 +35,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94787026652",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94742827784",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝑆𝐻𝜟𝐌𝐈𝜥𝐀 𝐷𝛯𝚴ꪊꪝ𝜟𝚴",
 // add bot owner name
@@ -75,6 +75,6 @@ ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it true for auto recoding 
 };
